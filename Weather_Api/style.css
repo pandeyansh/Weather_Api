@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+}
+.sect1 {
+    text-align: center;
+    margin-top: 20px;
+}
+#cityinput {
+    padding: 10px;
+}
+#add {
+    padding: 10px;
+    background-color: #2ecc71;
+    color: #fff;
+    cursor: pointer;
+}
+#add:hover {
+    background-color: #27ae60;
+}
+.sect2 {
+    margin-top: 20px;
+    text-align: center;
+}
+.wrapper {
+    border: 1px solid #3498db;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#cityoutput {
+    font-size: 24px;
+    color: #3498db;
+}
+#description,
+#temp,
+#wind {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
